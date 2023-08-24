@@ -1,3 +1,4 @@
+
 // Función para obtener el precio de un producto
 function obtenerPrecio(id) {
     switch (id) {
@@ -31,3 +32,6 @@ if (idproductos >= 1 && idproductos <= 3) {
 } else {
     console.log("Opción inválida. Por favor, selecciona una opción válida.");
 }
+
+
+//agregar un alert al costototal
