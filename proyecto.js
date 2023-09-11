@@ -1,7 +1,7 @@
 
 
 // Crear un array de productos
-const productos = [
+/*const productos = [
     {
       id: 1,
       nombre: "Capsuladora Rulante",
@@ -26,7 +26,7 @@ const productos = [
       descripcion: "Llenadora de 2 válvulas por gravedad con inertizador y corte a nivel para todo tipo de botellas, monofásica.",
       precio: 69000
     }
-  ];
+  ];*/
   
   // Función 
   function mostrarProductoSimplificado(producto) {
