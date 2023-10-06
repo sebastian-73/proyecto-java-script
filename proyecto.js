@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", async function () {
-    // Cargar los datos desde el archivo JSON
+    
+
     const response = await fetch('productos.json');
     const productos = await response.json();
 
@@ -10,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     const mensajeGraciasDiv = document.getElementById("mensajeGracias");
     const carritoVacioDiv = document.getElementById("carrito-vacio");
     const listaCarrito = document.getElementById("lista-carrito");
-    const totalSpan = document.getElementById("total"); // Elemento para mostrar el total
+    const totalSpan = document.getElementById("total"); 
 
     // localStorage
     let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
@@ -84,7 +85,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         actualizarCarrito();
         mensajeGraciasDiv.style.display = "block";
 
-        // Mostrar un mensaje SweetAlert de agradecimiento
+        // Mostrar un mensaje SweetAlert
         Swal.fire({
             position: 'center',
             icon: 'success',
