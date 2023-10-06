@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nombre": "Capsuladora Rulante",
+        "descripcion": "Manual, compleja o eléctrica monofásica o trifásica, con guía regulable en altura para distintas botellas. Practicidad y calidad a la hora del capsulado.",
+        "precio": 55000,
+        "imagen": "/img/cap rulante.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Capsuladora neumática",
+        "descripcion": "Con regulación de presión en gomas de plisado para distintas opciones de cápsula, monofásica.",
+        "precio": 45000,
+        "imagen": "/img/cap para espumante.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Capsuladora Rulante vertical",
+        "descripcion": "Con zapato alzabotellas neumático con regulador independiente de velocidad en entrada y salida de botella.",
+        "precio": 39000,
+        "imagen": "/img/cap rulante vertical.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Llenadora por gravedad",
+        "descripcion": "Llenadora de 2 válvulas por gravedad con inertizador y corte a nivel para todo tipo de botellas, monofásica.",
+        "precio": 69000,
+        "imagen": "img/Rpiston alzabotella llenadora gai.jpg"
+    }
+]

@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicos Moreno</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
 </head>
+
 <body>
     <header>
         <h1>Maquinarias</h1>
         <input type="text" id="buscador" placeholder="Buscar productos">
     </header>
     <section id="productos" class="tarjetas">
-        <!-- Tarjetas de productos se generarán aquí -->
+    
     </section>
     <section id="carrito" class="tarjetas">
         <h2>Carrito de Compra</h2>
         <div id="carrito-vacio">El carrito está vacío</div>
         <ul id="lista-carrito">
-            <!-- Elementos del carrito se generarán aquí -->
+            
         </ul>
+        <p id="total">Total: $0.00</p>
         <button id="finalizarCompra">Finalizar Compra</button>
     </section>
     <div id="mensajeGracias" class="oculto">
-        <p>¡Gracias por su compra!</p>
+        
     </div>
 
     <script src="proyecto.js"></script>
 </body>
+
 </html>
